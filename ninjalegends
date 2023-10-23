@@ -1,0 +1,19 @@
+local Player = game.Players.LocalPlayer
+
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Son Adayi Aciyom La";
+	Text = "izle Pillory Babayi :)";
+	Icon = "http://www.roblox.com/asset/?id=2459243309";
+	Button1 = "tamam abi"; 
+	Duration = "7";
+})
+
+Player.Character.HumanoidRootPart.CFrame = game.Workspace.islandUnlockParts["Blazing Vortex Island"].islandSignPart.CFrame
+wait(0.4)
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Adayi actim";
+	Text = "istedigin zaman kullan yegen";
+	Icon = "http://www.roblox.com/asset/?id=419589574";
+	Button1 = "tamam abi"; 
+	Duration = "7";
+})
